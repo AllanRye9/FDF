@@ -3,7 +3,7 @@ This an introductory project to 3D graphical representation of maps . Maps are f
 
 The first step to accomplishing this project is as follows;
 
-1. Read map data using get_next_line function and store in a 2D array of integer functions to help are atoi and split.
+1. Read map data, width and height using get_next_line function and store in a 2D array of integer type functions to help are atoi and split.
 2. Open the Graphical interface on your computer but to achieve this you need to initialize the minilibx program to the right graphical system base on the operating
    a. system (macOs, linux, windows) with the function mlx_init(); for e.g void *mlx_ptr; mlx_ptr = mlx_init();.
    b. To open a window in your computer it can be achieved with mlx_new_window; for e.g. void *mlx_win = mlx_new_window(mlx_ptr, width, height, "default message");
