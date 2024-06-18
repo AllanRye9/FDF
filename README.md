@@ -13,7 +13,7 @@ The first step to accomplishing this project is as follows;
    a. To express the function for e.g a struct named points with members of x , y and z , destination.x = points.x + cos(angle) * points.z; destination.y = points.y +       
       sine(angle) * points.z; the mathimatical equation for this is modifiable based on desired outcome.
    b. To draw you need to create a function that uses any of the 2 algorithm mentioned or any of your choice inorder to draw an object on the graphical user interface.
-5. After drawing our object shall be static so we need to add events like mouseover, zoom in or out, color, exit the current window using escape on the keyboard or the cross       sign on the top left corner of the screen and the screen should exit smoothly.
+5. After drawing our object shall be static so we need to add events like mouseover, zoom in or out, color, exit the current window using escape on the keyboard or the cross sign on the top left corner of the screen and the screen should exit smoothly.
    a. The function for this is called hook function mlx_hook(void *ptr_win, int func()(), void *ptr); it takes function that returns an integer each operating systems has     
       numbering systems for events like keyboard press, mouseover, zoom in or out . for e.g  mlx_hook(mlx_win, keypress, mlx); thats how we add events to our graphics.
 
